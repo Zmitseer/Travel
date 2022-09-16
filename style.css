@@ -1,0 +1,420 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mountains{
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+.globe{
+    position: absolute;
+    left: -1.2em;
+    top: 0.7%;
+}
+.login{
+   position: relative;
+   left: 75em;
+   top: 1.3em;
+    
+}
+/* header */
+.hate{
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+.logo{
+    position: absolute;
+    width: 216px;
+    height: 31px;
+    left: 160px;
+    top: 25px;
+    
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 42px;
+
+    position: absolute;
+    width: 527px;
+    height: 21px;
+    left: 494px;
+    top: 35px; 
+    
+    color: #FFFFFF;
+}
+.plan-your-trip{
+    position: absolute;
+    width: 892px;
+    height: 422px;
+    left: 130px;
+    top: 80px;
+
+    color: #FFFFFF;
+}
+.explore{
+    font-family: 'Aleo';
+    font-style: normal;
+
+    font-size: 80px;
+    color: #FFFFFF;
+}
+.receive{
+    position: absolute;
+    width: 723px;
+    height: 24px;
+    top: 270px;
+
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.search{
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    top: 350px;
+}
+.frame2{
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 650px;
+    top: 370px;
+}
+.search-string{
+    position: absolute;
+    height: 22px;
+    left: 40px;
+    top: 360px;
+
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #F2785C;
+}
+.trip{
+    position: absolute;
+    width: 1177px;
+    height: 247px;
+    left: 131px;
+    top: 845px;
+}
+.trip-titel{
+    position: absolute;
+    width: 611px;
+    height: 53px;
+    left: calc(50% - 611px/2);
+    top: calc(50% - 53px/2 - 97px);
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+
+    color: #F2785C;
+}
+.frame24{
+    position: absolute;
+    width: 247px;
+    height: 154px;
+    left: 0px;
+    top: 8em;
+}
+.frame25{
+    position: absolute;
+    width: 222px;
+    height: 154px;
+    left: 478px;
+    top: 8em;
+}
+.frame26{
+    position: absolute;
+    width: 317px;
+    height: 154px;
+    left: 860px;
+    top: 8em;
+}
+
+.popular{
+    position: absolute;
+    width: 501px;
+    height: 53px;
+    left: 470px;
+    top: 1189px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+
+
+    color: #F2785C;
+}
+.rectangle24{
+    width: 800px;
+    height: 800px;
+
+    position: absolute;
+    left: 310px;
+    top: 1289px;
+
+    border-radius: 20px;
+}
+.frame6{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    left: 681px;
+    top: 2112px;
+}
+.frame3{
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 607px;
+    top: 2172px;
+}
+.maintravel{
+    
+}
+
+.rectangle33, .fon{
+    position: absolute;
+    width: 1445px;
+    height: 1331px;
+    left: 0px;
+    top: 2440px;
+
+    z-index: 1;
+}
+.fon{
+    width: 1445px;
+    height: 1270px;
+    background: rgba(255, 255, 255, 0.7);
+    z-index: 2;
+}
+.stories{
+    position: absolute;
+    width: 1201px;
+    height: 1322px;
+    left: 119px;
+    top: 2311px;
+}
+.travel{
+    position: absolute;
+    left: 440px;
+    top: -15px;
+    width:auto;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+    z-index: 1;
+
+    color: #F2785C;
+}
+.rectangle29, .rectangle30, .rectangle31, .rectangle32{
+    display: block;
+    position: relative;
+    top: 180px;
+    width: 400px;
+    height: 250px;
+    
+    border-radius: 16px;
+
+    z-index: 2;
+}
+.photos{
+    position: absolute;
+    width: 760px;
+    height: 42px;
+    left: 450px;
+    top: 150px;
+   
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+    z-index: 2;
+
+    color: #0D606F;
+}
+.photostext{
+    position: absolute;
+    width: 700px;
+    height: 184px;
+    left: 450px;
+    top: 220px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    z-index: 2;
+
+    color: #0D606F;
+}
+.rectangle30{
+    top: 210px;
+}
+.canyonlands{
+    position: absolute;
+    width: 760px;
+    height: 42px;
+    left: 450px;
+    top: 430px;
+
+    z-index: 2;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    /* identical to box height */
+
+
+color: #0D606F;
+}
+.rectangle31{
+    top: 240px;
+}
+.rectangle32{
+    top: 270px;
+}
+.canyonlandstext{
+    position: absolute;
+    width: 700px;
+    height: 184px;
+    left: 450px;
+    top: 500px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0D606F;
+    z-index: 2;
+}
+.mountainss{
+    position: absolute;
+    width: 700px;
+    height: 184px;
+    left: 450px;
+    top: 710px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+/* identical to box height */
+    color: #0D606F;
+    z-index: 2;
+}
+.mountainstext{
+    position: absolute;
+    width: 700px;
+    height: 184px;
+    left: 450px;
+    top: 780px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+
+    z-index: 2;
+}
+.life{
+    position: absolute;
+    width: 700px;
+    height: 184px;
+    left: 450px;
+    top: 990px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+/* identical to box height */
+    color: #0D606F;
+    z-index: 2;
+}
+.lifetext{
+    position: absolute;
+    width: 700px;
+    height: 184px;
+    left: 450px;
+    top: 1060px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+
+    z-index: 2;
+}
+.frame4{
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 480px;
+    top: 1300px;
+
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+
+    z-index: 2;
+}
+.footer{
+    position: absolute;
+    width: 728.96px;
+    height: 33.65px;
+    left: 590px;
+    top: 3725px;
+
+    z-index: 2;
+}
+
+
+
